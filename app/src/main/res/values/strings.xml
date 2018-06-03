@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">24/7 Weather Forecast</string>
+
+    <string-array name="icon_img_name">
+        <item>clear-day</item>
+        <item>clear-night</item>
+        <item>rain</item>
+        <item>snow</item>
+        <item>sleet</item>
+        <item>wind</item>
+        <item>fog</item>
+        <item>cloudy</item>
+        <item>partly-cloudy-day</item>
+        <item>partly-cloudy-night</item>
+    </string-array>
+    
+    <string-array name="current_more_info_title">
+        <item>Dew Point</item>
+        <item>Wind Speed</item>
+        <item>Wind Gust</item>
+        <item>Wind Bearing</item>
+        <item>Cloud Cover</item>
+        <item>Ozone</item>
+    </string-array>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+

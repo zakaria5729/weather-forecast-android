@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bgGradient1">#581348</color>
+    <color name="bgGradient2">#143b36</color>
+    <color name="bgDivider">#e665c8</color>
+    <color name="downDegreeColor">#61565f</color>
+    <color name="dateColor">#c7c3c6</color>
+    <color name="bgDark">#691d57</color>
+    <color name="customBgDark">#3b2d38</color>
+</resources>

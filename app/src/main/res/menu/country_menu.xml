@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/choseItem"
+        android:title="Choose your location"
+        app:showAsAction="never">
+        <menu>
+            <item android:title="Bangladesh">
+                <menu>
+                    <item
+                        android:id="@+id/dhaka"
+                        android:title="Dhaka" />
+                    <item
+                        android:id="@+id/chattogram"
+                        android:title="Chattogram" />
+                    <item
+                        android:id="@+id/khulna"
+                        android:title="Khulna" />
+                    <item
+                        android:id="@+id/rajshahi"
+                        android:title="Rajshahi" />
+                    <item
+                        android:id="@+id/sylhet"
+                        android:title="Sylhet" />
+                    <item
+                        android:id="@+id/mymensingh"
+                        android:title="Mymensingh" />
+                    <item
+                        android:id="@+id/rangpur"
+                        android:title="Rangpur" />
+                    <item
+                        android:id="@+id/barishal"
+                        android:title="Barishal" />
+                </menu>
+            </item>
+
+            <item android:title="Australia">
+                <menu>
+                    <item
+                        android:id="@+id/melbourne"
+                        android:title="Melbourne" />
+                    <item
+                        android:id="@+id/sydney"
+                        android:title="Sydney" />
+                    <item
+                        android:id="@+id/victoria"
+                        android:title="Victoria" />
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/units"
+        android:title="Temperature Unit"
+        app:showAsAction="never"
+        android:onClick="setUnit"/>
+
+    <item
+        android:id="@+id/about"
+        android:title="About Us"
+        app:showAsAction="never"></item>
+
+</menu>
